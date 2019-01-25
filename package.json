@@ -1,0 +1,12 @@
+{
+    "name": "puppeteer-base-project",
+    "description": "Puppeteer Base Project",
+    "version": "1.0.0",
+    "engines": {
+        "node": ">=8"
+    },
+    "dependencies": {
+        "fs": "0.0.1-security",
+        "puppeteer": "^1.11.0"
+    }
+}
