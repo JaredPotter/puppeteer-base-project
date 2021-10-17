@@ -13,7 +13,7 @@ export type PuppeteerEventDefinition = {
   location?: number;
 };
 
-// taken from https://github.com/GoogleChrome/puppeteer/blame/master/lib/USKeyboardLayout.js
+// Obtained from https://github.com/GoogleChrome/puppeteer/blame/master/lib/USKeyboardLayout.js
 
 export const keyDefinitions = {
   '0': { keyCode: 48, key: '0', code: 'Digit0' },
