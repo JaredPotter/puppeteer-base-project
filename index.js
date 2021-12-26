@@ -41,7 +41,7 @@ const fs = require('fs');
   });
 
   fs.writeFile(
-    'mostSearched.txt',
+    'mostSearched.json',
     JSON.stringify(mostSearchedList),
     function (err) {
       if (err) {
